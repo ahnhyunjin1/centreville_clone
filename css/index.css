@@ -12,7 +12,20 @@ header h1 {
     top: 0;
 }
 header > ul {
+    display: flex;
     position: absolute;
     right: 30px;
     top: 0;
+    width: 170px;
+}
+header > ul li{
+    line-height: 70px;
+    flex: 1;
+}
+header > ul li a:before{
+    content: "";
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    background: url(/images/login_1.PNG) no-repeat;
 }
