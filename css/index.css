@@ -55,4 +55,17 @@ header #lnb{
 header #lnb nav {
     border-bottom: 1px solid rgba(255,255,255,0.5);
 }
-
+header #lnb nav >ul {
+    text-align: center;
+}
+header #lnb nav >ul >li {
+    display: inline-block;
+    
+}
+header #lnb nav >ul >li> a{
+    font-size: 18px;
+    color: #fff;
+}
+header #lnb >nav >ul ul{
+    display: none;
+}
