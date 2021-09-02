@@ -74,15 +74,21 @@ header #lnb nav >ul >li> a{
     line-height: 69px;
     position: relative;
 }
-header #lnb >nav >ul ul{
-    display: none;
-}
+
 header #lnb nav > ul > li > a:after{
     content: "";
-    width: 100%;
+    width: 0;
     position: absolute;
-    left: 0;
+    left: 50%;
     bottom: 0;
     height: 2px;
     background: #fff;
+    transition: all 0.5s;
+}
+header #lnb nav > ul > li > a:hover:after{
+    width: 100%;
+    left: 0;
+}
+header #lnb nav >ul ul {
+    position: absolute;
 }
