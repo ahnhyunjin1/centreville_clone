@@ -63,8 +63,12 @@ header #lnb nav >ul >li {
     
 }
 header #lnb nav >ul >li> a{
+    display: block;
     font-size: 18px;
     color: #fff;
+    width: 160px;
+    height: 69px;
+    line-height: 69px;
 }
 header #lnb >nav >ul ul{
     display: none;
