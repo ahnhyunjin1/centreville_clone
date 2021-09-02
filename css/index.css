@@ -80,7 +80,7 @@ header #lnb nav > ul > li > a:after{
     width: 0;
     position: absolute;
     left: 50%;
-    bottom: 0;
+    bottom: -1px;
     height: 2px;
     background: #fff;
     transition: all 0.5s;
@@ -93,8 +93,32 @@ header #lnb nav >ul ul {
     position: absolute;
     text-align: center;
     width: 100%;
+    padding: 22px 0 0 ;
 }
 header #lnb nav > ul ul a{
     font-size: 14px;
     color: #fff;
+    position: relative;
+}
+header #lnb nav >ul ul li{
+    line-height: 39px;
+
+}
+header #lnb nav > ul ul a:hover {
+    color: #2acef1;
+
+}
+header #lnb nav > ul > ul > a:after{
+    content: "";
+    width: 0;
+    position: absolute;
+    left: 50%;
+    bottom: -1px;
+    height: 2px;
+    background: #2acef1;
+    transition: all 0.5s;
+}
+header #lnb nav > ul > ul > a:hover:after{
+    width: 100%;
+    left: 0;
 }
