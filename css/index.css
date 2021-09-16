@@ -58,13 +58,20 @@ header #lnb{
 header #lnb nav {
     border-bottom: 1px solid rgba(255,255,255,0.5);
     text-align: center;
+    font-size: 0;
 }
 header #lnb nav >ul {
     display: inline-block;
+    height: 70px;
+    overflow: hidden;
     
 }
+header #lnb nav > ul:hover{
+    overflow: visible;
+}
 header #lnb nav > ul:hover ul{
-    display: block;
+    
+    opacity: 1;
 }
 header #lnb nav >ul >li {
     display: inline-block;
@@ -95,11 +102,13 @@ header #lnb nav > ul > li > a:hover:after{
     left: 0;
 }
 header #lnb nav >ul ul {
-    display: none;
+    
     position: absolute;
     text-align: center;
     width: 100%;
     padding: 22px 0 0 ;
+    opacity: 0;
+    transition: all 0.5s;
 }
 header #lnb nav > ul ul a{
     font-size: 14px;
