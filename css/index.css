@@ -57,9 +57,14 @@ header #lnb{
 }
 header #lnb nav {
     border-bottom: 1px solid rgba(255,255,255,0.5);
+    text-align: center;
 }
 header #lnb nav >ul {
-    text-align: center;
+    display: inline-block;
+    
+}
+header #lnb nav > ul:hover ul{
+    display: block;
 }
 header #lnb nav >ul >li {
     display: inline-block;
@@ -90,6 +95,7 @@ header #lnb nav > ul > li > a:hover:after{
     left: 0;
 }
 header #lnb nav >ul ul {
+    display: none;
     position: absolute;
     text-align: center;
     width: 100%;
