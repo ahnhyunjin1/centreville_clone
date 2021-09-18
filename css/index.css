@@ -13,7 +13,7 @@ header h1 {
     position: absolute;
     left: 30px;
     top: 0;
-    z-index: 30;
+    z-index: 31;
 }
 header > ul {
     display: flex;
@@ -59,6 +59,8 @@ header #lnb{
     z-index: 30;
 }
 header #lnb nav {
+    position: relative;
+    z-index: 30;
     border-bottom: 1px solid rgba(255,255,255,0.5);
     text-align: center;
     font-size: 0;
@@ -69,6 +71,9 @@ header #lnb nav >ul {
     overflow: hidden;
     
 }
+header #lnb nav:hover + div{
+    height: 330px;
+} 
 header #lnb nav > ul:hover{
     overflow: visible;
 }
@@ -77,8 +82,10 @@ header #lnb nav+div{
     left: 0;
     top: 0;
     width: 100%;
-    height: 330px;
+    
     background: #042e6f;
+    z-index: 29px;
+    transition: all .5s;
 }
 header #lnb nav > ul:hover ul{
     
