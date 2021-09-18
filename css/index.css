@@ -73,6 +73,7 @@ header #lnb nav >ul {
 }
 header #lnb nav:hover + div{
     height: 330px;
+    opacity: 1;
 } 
 header #lnb nav > ul:hover{
     overflow: visible;
@@ -82,10 +83,13 @@ header #lnb nav+div{
     left: 0;
     top: 0;
     width: 100%;
-    
+    opacity: 0;
     background: #042e6f;
     z-index: 29px;
     transition: all .5s;
+    padding: 0 30px;
+    box-sizing: border-box;
+    background-clip: content-box;
 }
 header #lnb nav > ul:hover ul{
     
@@ -115,12 +119,12 @@ header #lnb nav > ul > li > a:after{
     background: #fff;
     transition: all 0.5s;
 }
-header #lnb nav > ul > li > a:hover:after{
+header #lnb nav > ul > li:hover > a:after{
     width: 100%;
     left: 0;
 }
 header #lnb nav >ul ul {
-    
+    height: 230px;
     position: absolute;
     text-align: center;
     width: 100%;
