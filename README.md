@@ -4,3 +4,4 @@
 
 
 <li> 21.08.31 헤더html부분 작성 / 로그인 영억 작성 </br>
+<li> 21.10.15 nav complete / animation complete </br>
