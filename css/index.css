@@ -262,9 +262,23 @@ header #lnb nav > ul ul a:hover:after{
 .info_box li a .ico.no2 {
     background: #042e6f;
 }
-
-
-
+.info_box > ul + *{
+    margin-top: 30px;
+}
+.btn_more{
+    display: inline-block;
+    width: 140px;
+    height: 44px;
+    border: 1px solid #042e6f;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #042e6f;
+    line-height: 40px;
+    text-align: center;
+}
+.btns.center{
+    text-align: center;
+}
 
 
 
