@@ -184,12 +184,12 @@ header #lnb nav > ul ul a:hover:after{
 }
 .info_box li {
     float: left;
-    padding: 0 0 0 45px;
+    margin: 0 0 0 45px;
     width: 260px;
     position: relative;
 }
 .info_box li:first-child{
-    padding: 0;
+    margin: 0;
 }
 .info_box li em {
     display: block;
@@ -258,6 +258,9 @@ header #lnb nav > ul ul a:hover:after{
 }
 .info_box li a .ico.no1 {
     background: #94c83d;
+}
+.info_box li a .ico.no2 {
+    background: #042e6f;
 }
 
 
