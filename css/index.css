@@ -179,9 +179,17 @@ header #lnb nav > ul ul a:hover:after{
 .info_box h2 span{
     color: #042e6f;
 }
+.info_box ul {
+    display: flex;
+}
 .info_box li {
+    float: left;
+    padding: 0 0 0 45px;
     width: 260px;
     position: relative;
+}
+.info_box li:first-child{
+    padding: 0;
 }
 .info_box li em {
     display: block;
